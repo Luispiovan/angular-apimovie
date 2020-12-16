@@ -5,7 +5,7 @@ import { ValidarCamposService } from "../validar-campos.service";
 @Component({
   selector: "dio-input-select",
   templateUrl: "./input-select.component.html",
-  styleUrls: ["./input-select.component.css"]
+  styleUrls: ["./input-select.component.scss"]
 })
 export class InputSelectComponent {
   @Input() titulo: string;

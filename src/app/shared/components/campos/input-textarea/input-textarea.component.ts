@@ -5,7 +5,7 @@ import { ValidarCamposService } from "../validar-campos.service";
 @Component({
   selector: "dio-input-textarea",
   templateUrl: "./input-textarea.component.html",
-  styleUrls: ["./input-textarea.component.css"]
+  styleUrls: ["./input-textarea.component.scss"]
 })
 export class InputTextareaComponent {
   @Input() titulo: string;

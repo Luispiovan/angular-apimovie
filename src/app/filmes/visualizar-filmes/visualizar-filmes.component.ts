@@ -9,7 +9,7 @@ import { AlertaComponent } from "src/app/shared/components/alerta/alerta.compone
 @Component({
   selector: "dio-visualizar-filmes",
   templateUrl: "./visualizar-filmes.component.html",
-  styleUrls: ["./visualizar-filmes.component.css"]
+  styleUrls: ["./visualizar-filmes.component.scss"]
 })
 export class VisualizarFilmesComponent implements OnInit {
   readonly semFoto =

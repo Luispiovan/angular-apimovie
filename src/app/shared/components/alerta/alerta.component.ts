@@ -5,7 +5,7 @@ import { Alerta } from "../../models/alerta";
 @Component({
   selector: "dio-alerta",
   templateUrl: "./alerta.component.html",
-  styleUrls: ["./alerta.component.css"]
+  styleUrls: ["./alerta.component.scss"]
 })
 export class AlertaComponent implements OnInit {
   alerta = {
